@@ -1,34 +1,58 @@
-# 🍕 Pizza Billing System (Core Java - Internship Project)
+#TITLE
 
-This project is a simple and user-friendly **Pizza Billing System** developed as part of my **3rd-year summer internship**. It uses **Core Java** with a strong focus on **Object-Oriented Programming (OOP)** concepts like **inheritance**, **constructors**, and **access specifiers** to simulate a real-world billing scenario in a console-based format.
+Bill Generator  - Java Console Application
+
+#DESCRIPTION
+
+Pizza Bill generator is a simple Java console application that simulates ordering pizzas with customizable options such as extra cheese, extra toppings, and takeaway packaging. It supports four types of pizzas:
+
+- Veg Pizza
+- Non-Veg Pizza
+- Deluxe Veg Pizza
+- Deluxe Non-Veg Pizza
+
+The program calculates the total price based on selected options and prints a detailed bill.
 
 ---
 
-## 🚀 Features
+## Project Structure
 
-- Choose between **Regular Pizza** and **Delux Pizza**
-- Add **extra cheese** or **extra toppings**
-- Option for **takeaway packaging**
-- Generate and display a **detailed bill** to the customer
-- Understandable bill breakdown with cost calculation
+- Pizza.java — Base class representing a pizza with options to add cheese, toppings, and takeaway packaging.
+- DeluxPizza.java — Subclass of pizza representing deluxe pizzas with different base prices.
+- Main.java — Contains the main method and user interaction to choose and customize pizzas.
+
+#Features
+
+
+- Select pizza type (Veg, Non-Veg, Deluxe Veg, Deluxe Non-Veg)
+- Add extra cheese and toppings
+- Opt for takeaway packaging
+- View detailed bill with all chosen options and total price
 
 ---
 
-## 🛠️ Technologies Used
+# Technologies Used
 
-- **Java**
-- **OOP Concepts**:  
+**Java**
+ **OOP Concepts**:  
   - Inheritance  
   - Method Overriding  
   - Constructors  
-  - Access Specifiers (`private`, `protected`, `public`)
+  - Access Specifiers 
 
 ---
+# How to Run
 
-## ▶️ How to Run
+1. Clone the repository:
 
-1. Make sure you have **Java JDK** installed.
-2. Compile the files:
-   ```bash
-   javac Pizza.java DeluxPizza.java Main.java
-java Main
+   git clone https://github.com/vinayachalla46/Projects.git
+   cd Projects
+   
+3. Compile the Java files:
+
+   javac bill/*.java
+
+4. Run the application:
+ 
+   java bill.Main
+
